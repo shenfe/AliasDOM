@@ -33,11 +33,11 @@ Then you would get:
 
 ```js
 $el === {
-    'search': /**/,
-    'user': /**/,
-    'article': /**/,
-    'operation': /**/,
-    'operation/like': /**/,
-    'operation/comment': /**/
+    'search': /* the element of `.header input.search` */,
+    'user': /* the element of `.header div.user` */,
+    'article': /* the element of `.content div.article` */,
+    'operation': /* the element of `.content div.operate` */,
+    'operation/like': /* the element of `.content div.operate a.like` */,
+    'operation/comment': /* the element of `.content div.operate input.comment` */
 }
 ```
